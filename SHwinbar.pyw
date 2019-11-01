@@ -53,7 +53,7 @@ else :
     #开始任务栏隐藏，显示
     #print("Inv to visible")
     setAutoHide(False)    #设置是否自动隐藏
-    time.sleep(0.01)    #这样才能正确把两个设置一起做好，如果不行可以试试先调整一下sleep延迟
+    time.sleep(0.1)    #这样才能正确把两个设置一起做好，如果不行可以试试先调整一下sleep延迟
     win32gui.ShowWindow(win_bar,win32con.SW_SHOW)
     
     
