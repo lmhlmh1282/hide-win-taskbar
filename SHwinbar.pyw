@@ -46,7 +46,7 @@ if isVisible == True :
     #开始任务栏显示，隐藏
     #print("V to invisible")
     setAutoHide(True)    #设置是否自动隐藏
-    time.sleep(0.06)    #这样才能正确把两个设置一起做好
+    time.sleep(0.06)    #这样才能正确把两个设置一起做好，如果不行可以试试调整两个sleep延迟
     win32gui.ShowWindow(win_bar,win32con.SW_HIDE)
     
 else :
